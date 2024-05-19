@@ -28,37 +28,7 @@ export class AppComponent implements OnInit {
 
   constructor(private apiService: ApiService) {}
 
-  ngOnInit(): void {
-    this.loading.user = true;
-    this.loading.repos = true;
-
-    // Search the user (returns from API or cache)
-    this.apiService
-      .getUser('mohammedvaraliya')
-      .pipe()
-      .subscribe({
-        next: (user) => {
-          this.user = user;
-          this.error = null;
-        },
-        error: (e: HttpErrorResponse) => this.handleError(e),
-        complete: () => (this.loading.user = null),
-      });
-
-    if (this.error) return;
-
-    // Get the repos if and only if the user details fetch is successfull.
-    this.apiService
-      .getRepos('mohammedvaraliya', this.perPage, this.currentPage)
-      .subscribe({
-        next: (repos) => {
-          this.repos = repos;
-          this.error = null;
-        },
-        error: (e: HttpErrorResponse) => this.handleError(e),
-        complete: () => (this.loading.repos = null),
-      });
-  }
+  ngOnInit(): void {}
 
   // Handles the form submit of the search bar component. When the user click submits fetch the user and repos data from the API.
   onSearch(form: FormGroup): void {
