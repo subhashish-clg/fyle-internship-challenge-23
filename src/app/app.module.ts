@@ -8,6 +8,7 @@ import { UserProfileComponent } from './components/user-profile/user-profile.com
 import { RepoListComponent } from './components/repo-list/repo-list.component';
 import { RepoItemComponent } from './components/repo-item/repo-item.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,12 @@ import { NgxPaginationModule } from 'ngx-pagination';
     RepoListComponent,
     RepoItemComponent,
   ],
-  imports: [BrowserModule, HttpClientModule, NgxPaginationModule],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    NgxPaginationModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

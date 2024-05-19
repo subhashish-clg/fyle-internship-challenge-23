@@ -1,21 +1,21 @@
 <div class="bg-white w-fit px-8 py-6 rounded-lg">
   <div class="rounded-full overflow-hidden w-fit">
-    <img
-      src="https://avatars.githubusercontent.com/u/95087498?v=4"
-      height="72"
-      width="72"
-    />
+    <img [src]="user.avatar_url" height="72" width="72" />
   </div>
   <div class="mt-4">
     <div>
-      <h2 class="text-2xl font-bold">Jhon Doe</h2>
-      <code class="text-sm text-gray-600 font-medium">&#64;jhondoe</code>
+      <h2 class="text-2xl font-bold">{{ user.name }}</h2>
+      <code class="text-sm text-gray-600 font-medium"
+        >&#64;{{ user.login }}</code
+      >
     </div>
     <p class="block max-w-[40ch] font-medium mt-4">
-      Full-stack developer at Google. and also front-end. Open-source
-      contributor.
+      {{ user.bio }}
     </p>
-    <div class="flex gap-1 items-center mt-4">
+    <div
+      class="flex gap-1 items-center mt-4"
+      *ngIf="user.twitter_username !== ''"
+    >
       <svg
         width="20"
         height="20"
@@ -48,10 +48,13 @@
           </clipPath>
         </defs>
       </svg>
-      <p>&#64;jhonsays</p>
+      <p>&#64;{{ user.twitter_username }}</p>
     </div>
   </div>
   <div class="text-gray-700 mt-4 text-sm">
-    <p>117 followers ⋅ 123 following ⋅ Mumbai, India</p>
+    <p>
+      {{ user.followers }} followers ⋅ {{ user.following }} following ⋅
+      {{ user.location }}
+    </p>
   </div>
 </div>

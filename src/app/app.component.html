@@ -1,7 +1,23 @@
-<app-search-bar></app-search-bar>
+<app-search-bar (onSubmit)="onSubmit($event)"></app-search-bar>
 <main class="container px-4 mx-auto mt-36">
-  <section>
-    <app-user-profile></app-user-profile>
-  </section>
-  <app-repo-list></app-repo-list>
+  <div *ngIf="user" id="repos">
+    <section>
+      <app-user-profile [user]="user"></app-user-profile>
+    </section>
+    <app-repo-list
+      *ngIf="repos"
+      [currentPage]="currentPage"
+      [totalItemCount]="user.public_repos"
+      [itemsPerPage]="perPage"
+      [repos]="repos"
+      (pageChange)="pageChange($event)"
+      (changeIteminView)="changeItemsInView($event)"
+    ></app-repo-list>
+  </div>
+
+  <div *ngIf="error">
+    <h2 class="text-4xl text-center font-bold text-red-600">
+      {{ error }}
+    </h2>
+  </div>
 </main>
