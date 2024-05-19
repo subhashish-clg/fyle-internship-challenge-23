@@ -7,5 +7,6 @@ import { GithubUser } from 'src/app/types/GithubAPIType';
   styleUrls: ['./user-profile.component.scss'],
 })
 export class UserProfileComponent {
-  @Input() user!: GithubUser;
+  @Input() user: GithubUser | null = null;
+  @Input() isLoading: boolean | null = null;
 }

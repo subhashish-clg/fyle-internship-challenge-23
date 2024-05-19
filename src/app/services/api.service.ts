@@ -11,24 +11,18 @@ export class ApiService {
   constructor(private httpClient: HttpClient) {}
 
   getUser(githubUsername: string) {
-    return from(
-      this.getCachedResponse(`https://api.github.com/users/${githubUsername}`)
-    ).pipe(
+    const url = `https://api.github.com/users/${githubUsername}`;
+
+    return from(this.getCachedResponse(url)).pipe(
       switchMap((cachedResponse) => {
         if (cachedResponse) {
           return of(cachedResponse);
         } else {
-          return this.httpClient
-            .get<GithubUser>(`https://api.github.com/users/${githubUsername}`)
-            .pipe(
-              tap((response) => {
-                console.log('Caching');
-                this.cacheResponse(
-                  `https://api.github.com/users/${githubUsername}`,
-                  response
-                );
-              })
-            );
+          return this.httpClient.get<GithubUser>(url).pipe(
+            tap((response) => {
+              this.cacheResponse(url, response);
+            })
+          );
         }
       })
     );
@@ -44,7 +38,6 @@ export class ApiService {
         } else {
           return this.httpClient.get<GithubRepository[]>(url).pipe(
             tap((response) => {
-              console.log('Caching');
               this.cacheResponse(url, response);
             })
           );
@@ -53,6 +46,7 @@ export class ApiService {
     );
   }
 
+  // Retrieve data from cache
   async getCachedResponse(request: string): Promise<any> {
     const cache = await caches.open(this.cacheName);
     const cachedResponse = await cache.match(request);
@@ -63,6 +57,7 @@ export class ApiService {
     }
   }
 
+  // Store data to the cache
   async cacheResponse(request: string, response: any): Promise<void> {
     const cache = await caches.open(this.cacheName);
     const clonedResponse = new Response(JSON.stringify(response));

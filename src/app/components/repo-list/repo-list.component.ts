@@ -8,10 +8,12 @@ import { GithubRepository } from 'src/app/types/GithubAPIType';
 })
 export class RepoListComponent {
   @Output() pageChange = new EventEmitter();
-  @Output() changeIteminView = new EventEmitter();
+  @Output() changeItemsNumber = new EventEmitter();
 
-  @Input() repos!: GithubRepository[];
+  @Input() repos!: GithubRepository[] | null;
   @Input() currentPage: number = 1;
   @Input() itemsPerPage: number = 10;
   @Input() totalItemCount: number = 1;
+
+  @Input() isLoading: boolean | null = null;
 }

@@ -9,6 +9,7 @@ import { RepoListComponent } from './components/repo-list/repo-list.component';
 import { RepoItemComponent } from './components/repo-item/repo-item.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NgxSkeletonLoaderModule } from '@exalif/ngx-skeleton-loader';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     HttpClientModule,
     ReactiveFormsModule,
     NgxPaginationModule,
+    NgxSkeletonLoaderModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

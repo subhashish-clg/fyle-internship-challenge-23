@@ -1,17 +1,22 @@
-<app-search-bar (onSubmit)="onSubmit($event)"></app-search-bar>
+<app-search-bar (onSubmit)="onSearch($event)"></app-search-bar>
+
 <main class="container px-4 mx-auto mt-36">
-  <div *ngIf="user" id="repos">
+  <div id="repos">
     <section>
-      <app-user-profile [user]="user"></app-user-profile>
+      <app-user-profile
+        [user]="user"
+        [isLoading]="loading.user"
+      ></app-user-profile>
     </section>
     <app-repo-list
-      *ngIf="repos"
+      *ngIf="user && repos"
+      [isLoading]="loading.repos"
       [currentPage]="currentPage"
       [totalItemCount]="user.public_repos"
       [itemsPerPage]="perPage"
       [repos]="repos"
       (pageChange)="pageChange($event)"
-      (changeIteminView)="changeItemsInView($event)"
+      (changeItemsNumber)="changeItemsNumber($event)"
     ></app-repo-list>
   </div>
 
