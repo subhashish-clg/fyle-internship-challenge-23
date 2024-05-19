@@ -1,5 +1,28 @@
-<div class="grid h-screen place-items-center">
-  <div class="font-bold text-3xl">
-    Fyle Internship Challenge
+<app-search-bar (onSubmit)="onSearch($event)"></app-search-bar>
+
+<main class="container px-4 mx-auto mt-36">
+  <div id="repos">
+    <section>
+      <app-user-profile
+        [user]="user"
+        [isLoading]="loading.user"
+      ></app-user-profile>
+    </section>
+    <app-repo-list
+      *ngIf="user && repos"
+      [isLoading]="loading.repos"
+      [currentPage]="currentPage"
+      [totalItemCount]="user.public_repos"
+      [itemsPerPage]="perPage"
+      [repos]="repos"
+      (pageChange)="pageChange($event)"
+      (changeItemsNumber)="changeItemsNumber($event)"
+    ></app-repo-list>
   </div>
-</div>
+
+  <div *ngIf="error">
+    <h2 class="text-4xl text-center font-bold text-red-600">
+      {{ error }}
+    </h2>
+  </div>
+</main>

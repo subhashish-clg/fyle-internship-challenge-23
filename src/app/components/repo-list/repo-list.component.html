@@ -1,0 +1,53 @@
+<section class="pt-9">
+  <h2 class="text-3xl font-bold text-gray-700">Repositories</h2>
+
+  <div class="mt-8 pb-16 grid grid-cols-1 lg:grid-cols-2 gap-4 auto-rows-fr">
+    <ng-container *ngIf="isLoading">
+      <div
+        *ngFor="let i of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+        class="bg-white py-4 px-6 rounded-lg min-h-full"
+      >
+        <ngx-skeleton-loader
+          [theme]="[{ height: '36px' }]"
+        ></ngx-skeleton-loader>
+        <ngx-skeleton-loader
+          class="space-y-6"
+          [count]="3"
+          [theme]="[
+            { height: '16px', width: '70%' },
+            { height: '50%', width: '100%' }
+          ]"
+        ></ngx-skeleton-loader>
+      </div>
+    </ng-container>
+
+    <ng-container *ngIf="repos">
+      <app-repo-item
+        *ngFor="
+          let repo of repos
+            | paginate
+              : {
+                  itemsPerPage: itemsPerPage,
+                  currentPage: currentPage,
+                  totalItems: totalItemCount
+                }
+        "
+        [repo]="repo"
+      ></app-repo-item>
+    </ng-container>
+  </div>
+
+  <div class="flex justify-between items-center py-4 text-gray-700">
+    <div class="flex gap-2">
+      <p>Items per page:</p>
+      <select (change)="changeItemsNumber.emit($event)">
+        <option *ngFor="let item of [10, 50, 100, 200]" [value]="item">
+          {{ item }}
+        </option>
+      </select>
+    </div>
+
+    <pagination-controls (pageChange)="pageChange.emit($event)">
+    </pagination-controls>
+  </div>
+</section>
