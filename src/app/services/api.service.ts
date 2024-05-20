@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, from, of, switchMap, tap, throwError } from 'rxjs';
+import { Observable, from, map, of, switchMap, tap, throwError } from 'rxjs';
 import { GithubRepository, GithubUser } from '../types/GithubAPIType';
 
 @Injectable({
@@ -13,7 +13,7 @@ export class ApiService {
   getUser(githubUsername: string): Observable<GithubUser> {
     const url = `https://api.github.com/users/${githubUsername}`;
 
-    return from(this.getCachedResponse(url)).pipe(
+    return from(this.getCachedResponse<GithubUser>(url)).pipe(
       switchMap((cachedResponse) => {
         if (cachedResponse) {
           return of(cachedResponse);
@@ -35,7 +35,8 @@ export class ApiService {
     page_number?: number
   ): Observable<GithubRepository[]> {
     const url = `https://api.github.com/users/${githubUsername}/repos?per_page=${per_page}&page=${page_number}`;
-    return from(this.getCachedResponse(url)).pipe(
+
+    return from(this.getCachedResponse<GithubRepository[]>(url)).pipe(
       switchMap((cachedResponse) => {
         if (cachedResponse) {
           return of(cachedResponse);
@@ -51,7 +52,7 @@ export class ApiService {
   }
 
   // Retrieve data from cache
-  async getCachedResponse(request: string): Promise<any> {
+  async getCachedResponse<T>(request: string): Promise<T | null> {
     const cache = await caches.open(this.cacheName);
     const cachedResponse = await cache.match(request);
     if (cachedResponse) {
@@ -61,6 +62,11 @@ export class ApiService {
     }
   }
 
+  test(): Observable<GithubUser> {
+    return this.httpClient.get<GithubUser>(
+      'https://api.github.com/users/mohammedvaraliya'
+    );
+  }
   // Store data to the cache
   async cacheResponse(request: string, response: any): Promise<void> {
     const cache = await caches.open(this.cacheName);

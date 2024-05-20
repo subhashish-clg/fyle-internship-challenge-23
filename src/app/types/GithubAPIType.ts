@@ -60,7 +60,7 @@ export interface GithubRepository {
     site_admin: boolean;
   };
   html_url: string;
-  description: string;
+  description: string | null;
   fork: boolean;
   url: string;
   forks_url: string;
@@ -106,7 +106,7 @@ export interface GithubRepository {
   ssh_url: string;
   clone_url: string;
   svn_url: string;
-  homepage: string;
+  homepage: string | null;
   size: number;
   stargazers_count: number;
   watchers_count: number;
