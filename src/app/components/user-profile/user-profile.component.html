@@ -1,4 +1,7 @@
-<div *ngIf="isLoading || user" class="bg-white px-8 py-6 rounded-lg">
+<div
+  *ngIf="isLoading || user"
+  class="bg-white px-8 py-6 rounded-lg break-words"
+>
   <div *ngIf="isLoading">
     <ngx-skeleton-loader
       [count]="1"

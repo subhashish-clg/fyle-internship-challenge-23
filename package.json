@@ -20,7 +20,6 @@
     "@angular/router": "^16.1.0",
     "@exalif/ngx-skeleton-loader": "^17.0.0",
     "ngx-pagination": "^6.0.3",
-    "ngx-skeleton-loader": "^9.0.0",
     "octokit": "^3.1.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

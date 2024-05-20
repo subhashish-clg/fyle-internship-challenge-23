@@ -35,9 +35,17 @@
         [repo]="repo"
       ></app-repo-item>
     </ng-container>
+
+    <ng-cotainer *ngIf="repos?.length === 0">
+      <h3 class="text-3xl font-bold text-gray-700">
+        Looks like the user does not have any repositories. :(
+      </h3>
+    </ng-cotainer>
   </div>
 
-  <div class="flex justify-between items-center py-4 text-gray-700">
+  <div
+    class="flex justify-between items-center py-4 text-gray-700 flex-col md:flex-row gap-y-6"
+  >
     <div class="flex gap-2">
       <p>Items per page:</p>
       <select (change)="changeItemsNumber.emit($event)">

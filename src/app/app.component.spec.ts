@@ -1,10 +1,32 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { NgxSkeletonLoaderModule } from '@exalif/ngx-skeleton-loader';
+import { UserProfileComponent } from './components/user-profile/user-profile.component';
+import { RepoListComponent } from './components/repo-list/repo-list.component';
 
 describe('AppComponent', () => {
-  beforeEach(() => TestBed.configureTestingModule({
-    declarations: [AppComponent]
-  }));
+  beforeEach(() =>
+    TestBed.configureTestingModule({
+      declarations: [
+        AppComponent,
+        SearchBarComponent,
+        UserProfileComponent,
+        RepoListComponent,
+      ],
+      imports: [
+        BrowserModule,
+        HttpClientModule,
+        ReactiveFormsModule,
+        NgxPaginationModule,
+        NgxSkeletonLoaderModule,
+      ],
+    })
+  );
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
@@ -16,12 +38,5 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('fyle-frontend-challenge');
-  });
-
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('fyle-frontend-challenge app is running!');
   });
 });

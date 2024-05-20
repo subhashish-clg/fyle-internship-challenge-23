@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { from, of, switchMap, tap, throwError } from 'rxjs';
+import { Observable, from, of, switchMap, tap, throwError } from 'rxjs';
 import { GithubRepository, GithubUser } from '../types/GithubAPIType';
 
 @Injectable({
@@ -10,7 +10,7 @@ export class ApiService {
   cacheName: string = 'github-cache';
   constructor(private httpClient: HttpClient) {}
 
-  getUser(githubUsername: string) {
+  getUser(githubUsername: string): Observable<GithubUser> {
     const url = `https://api.github.com/users/${githubUsername}`;
 
     return from(this.getCachedResponse(url)).pipe(
@@ -29,7 +29,11 @@ export class ApiService {
   }
 
   // implement getRepos method by referring to the documentation. Add proper types for the return type and params
-  getRepos(githubUsername: string, per_page?: number, page_number?: number) {
+  getRepos(
+    githubUsername: string,
+    per_page?: number,
+    page_number?: number
+  ): Observable<GithubRepository[]> {
     const url = `https://api.github.com/users/${githubUsername}/repos?per_page=${per_page}&page=${page_number}`;
     return from(this.getCachedResponse(url)).pipe(
       switchMap((cachedResponse) => {

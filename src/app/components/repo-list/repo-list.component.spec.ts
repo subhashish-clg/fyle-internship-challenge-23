@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { RepoListComponent } from './repo-list.component';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 describe('RepoListComponent', () => {
   let component: RepoListComponent;
@@ -8,8 +9,10 @@ describe('RepoListComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [RepoListComponent]
-    });
+      declarations: [RepoListComponent],
+      imports: [NgxPaginationModule],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(RepoListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

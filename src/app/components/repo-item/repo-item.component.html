@@ -1,5 +1,9 @@
 <div class="bg-white py-4 px-6 rounded-lg min-h-full">
-  <h3 class="font-bold text-3xl underline">{{ repo.name }}</h3>
+  <h3
+    class="font-bold text-3xl underline cursor-pointer break-words hover:text-blue-400"
+  >
+    <a target="_blank" [href]="repo.html_url">{{ repo.name }}</a>
+  </h3>
   <div class="mt-6">
     <p class="block font-medium">{{ repo.description }}</p>
     <div class="mt-4" *ngIf="repo.topics.length > 0">
@@ -7,7 +11,7 @@
       <div class="flex gap-1 flex-wrap">
         <p
           *ngFor="let topic of repo.topics"
-          class="inline-block bg-[#BAE6FF] text-[#06579D] rounded-full px-4 py-1"
+          class="break-words inline-block bg-[#BAE6FF] text-[#06579D] rounded-full px-4 py-1"
         >
           {{ topic }}
         </p>

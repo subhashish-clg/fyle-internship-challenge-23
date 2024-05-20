@@ -3,6 +3,7 @@ import { ApiService } from './services/api.service';
 import { FormGroup } from '@angular/forms';
 import { GithubRepository, GithubUser } from './types/GithubAPIType';
 import { HttpErrorResponse } from '@angular/common/http';
+import { map, switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +11,8 @@ import { HttpErrorResponse } from '@angular/common/http';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
+  title: string = 'fyle-frontend-challenge';
+
   // Pagination
   currentPage: number = 1;
   perPage: number = 10;
@@ -18,11 +21,11 @@ export class AppComponent implements OnInit {
   user: GithubUser | null = null;
   repos: GithubRepository[] | null = null;
   loading: {
-    user: boolean | null;
-    repos: boolean | null;
+    user: boolean;
+    repos: boolean;
   } = {
-    user: null,
-    repos: null,
+    user: false,
+    repos: false,
   };
   error: string | null = null;
 
@@ -32,48 +35,60 @@ export class AppComponent implements OnInit {
 
   // Handles the form submit of the search bar component. When the user click submits fetch the user and repos data from the API.
   onSearch(form: FormGroup): void {
+    this.resetError();
+
     // Empty the states from previous search
     this.user = null;
     this.repos = null;
 
     if (!form.valid) return alert('Username cannot be empty.');
     this.loading.user = true;
+    this.loading.repos = true;
 
     // Search the user (returns from API or cache)
     this.apiService
       .getUser(form.value.username)
-      .pipe()
+      .pipe(
+        switchMap((user) => {
+          this.loading.user = false;
+          return this.apiService
+            .getRepos(user.login, this.perPage, this.currentPage)
+            .pipe(
+              map((repos) => {
+                this.loading.repos = false;
+                return {
+                  user,
+                  repos,
+                };
+              })
+            );
+        })
+      )
       .subscribe({
-        next: (user) => {
+        next: ({ user, repos }) => {
           this.user = user;
-          this.error = null;
-        },
-        error: (e: HttpErrorResponse) => this.handleError(e),
-        complete: () => (this.loading.user = null),
-      });
-
-    if (this.error) return;
-
-    // Get the repos if and only if the user details fetch is successfull.
-    this.apiService
-      .getRepos(form.value.username, this.perPage, this.currentPage)
-      .subscribe({
-        next: (repos) => {
           this.repos = repos;
           this.error = null;
         },
         error: (e: HttpErrorResponse) => this.handleError(e),
+        complete: () => {
+          this.loading.user = false;
+          this.loading.repos = false;
+        },
       });
 
     form.reset();
+    if (document.activeElement) (document.activeElement as HTMLElement).blur();
     return document.getElementById('repos')?.scrollIntoView(); // Scroll back to top.
   }
 
   // Change the number of items in view.
   changeItemsNumber(event: any) {
-    console.log(event.target.value as number);
+    this.resetError();
     this.currentPage = 1;
     this.perPage = event.target.value as number;
+
+    this.loading.repos = true;
 
     this.apiService
       .getRepos((this.user as GithubUser).login, this.perPage, this.currentPage)
@@ -83,6 +98,7 @@ export class AppComponent implements OnInit {
           this.error = null;
         },
         error: (e: HttpErrorResponse) => this.handleError(e),
+        complete: () => (this.loading.repos = false),
       });
 
     document.getElementById('repos')?.scrollIntoView(); // Scroll to the top
@@ -90,6 +106,8 @@ export class AppComponent implements OnInit {
 
   // Handle the pagination page change.
   pageChange(event: number): void {
+    this.resetError();
+
     this.currentPage = event; // Change the current page.
     this.loading.repos = true;
 
@@ -101,7 +119,7 @@ export class AppComponent implements OnInit {
           this.error = null;
         },
         error: (e: HttpErrorResponse) => this.handleError(e),
-        complete: () => (this.loading.repos = null),
+        complete: () => (this.loading.repos = false),
       });
 
     return document.getElementById('repos')?.scrollIntoView(); // Scroll back to top.
@@ -109,12 +127,11 @@ export class AppComponent implements OnInit {
 
   // Handles the HTTP error, this is done here because to display message on the UI.
   handleError(error: HttpErrorResponse): void {
-    console.log(error);
     this.user = null;
     this.repos = null;
 
-    this.loading.user = null;
-    this.loading.repos = null;
+    this.loading.user = false;
+    this.loading.repos = false;
 
     if (error.status === 403)
       this.error = "Looks like you've hit the rate limit for GitHub API. :(";
@@ -123,5 +140,10 @@ export class AppComponent implements OnInit {
     else
       this.error =
         'Oops something bad just happend, please try again or after some time.';
+  }
+
+  //Reset the error variable
+  resetError(): void {
+    this.error = null;
   }
 }

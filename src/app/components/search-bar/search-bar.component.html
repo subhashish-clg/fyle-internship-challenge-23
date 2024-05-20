@@ -1,7 +1,7 @@
 <form
   [formGroup]="searchForm"
   (ngSubmit)="onSubmit.emit(searchForm)"
-  class="bg-white w-11/12 max-w-[720px] fixed left-1/2 -translate-x-1/2 rounded-full top-8 focus-within:shadow-2xl transition-shadow ease-in-out duration-500 flex overflow-hidden px-4 py-2 shadow"
+  class="z-50 bg-white w-11/12 max-w-[720px] fixed left-1/2 -translate-x-1/2 rounded-full top-8 focus-within:shadow-2xl transition-shadow ease-in-out duration-500 flex overflow-hidden px-4 py-2 shadow"
 >
   <input
     formControlName="username"
