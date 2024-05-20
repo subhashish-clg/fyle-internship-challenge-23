@@ -35,6 +35,8 @@ export class AppComponent implements OnInit {
 
   // Handles the form submit of the search bar component. When the user click submits fetch the user and repos data from the API.
   onSearch(form: FormGroup): void {
+    if (!form.valid) return alert('Username cannot be empty.');
+
     this.currentPage = 1;
     this.perPage = 10;
 
@@ -44,7 +46,6 @@ export class AppComponent implements OnInit {
     this.user = null;
     this.repos = null;
 
-    if (!form.valid) return alert('Username cannot be empty.');
     this.loading.user = true;
     this.loading.repos = true;
 
