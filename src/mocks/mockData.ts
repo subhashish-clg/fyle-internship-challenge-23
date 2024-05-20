@@ -1555,4 +1555,2209 @@ export const mockRepos: GithubRepository[] = [
     watchers: 2,
     default_branch: 'main',
   },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
+  {
+    id: 752153199,
+    node_id: 'R_kgDOLNTybw',
+    name: 'Google-GeminiPro-Chatbot-Vite-ReactApp',
+    full_name: 'Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    private: false,
+    owner: {
+      login: 'Mohammedvaraliya',
+      id: 95087498,
+      node_id: 'U_kgDOBarrig',
+      avatar_url: 'https://avatars.githubusercontent.com/u/95087498?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Mohammedvaraliya',
+      html_url: 'https://github.com/Mohammedvaraliya',
+      followers_url: 'https://api.github.com/users/Mohammedvaraliya/followers',
+      following_url:
+        'https://api.github.com/users/Mohammedvaraliya/following{/other_user}',
+      gists_url:
+        'https://api.github.com/users/Mohammedvaraliya/gists{/gist_id}',
+      starred_url:
+        'https://api.github.com/users/Mohammedvaraliya/starred{/owner}{/repo}',
+      subscriptions_url:
+        'https://api.github.com/users/Mohammedvaraliya/subscriptions',
+      organizations_url: 'https://api.github.com/users/Mohammedvaraliya/orgs',
+      repos_url: 'https://api.github.com/users/Mohammedvaraliya/repos',
+      events_url:
+        'https://api.github.com/users/Mohammedvaraliya/events{/privacy}',
+      received_events_url:
+        'https://api.github.com/users/Mohammedvaraliya/received_events',
+      type: 'User',
+      site_admin: false,
+    },
+    html_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    description: 'Google GeminiPro Model Chatbot for MVLU College',
+    fork: false,
+    url: 'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    forks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/forks',
+    keys_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/teams',
+    hooks_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/events',
+    assignees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/tags',
+    blobs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/languages',
+    stargazers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/subscription',
+    commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/merges',
+    archive_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/downloads',
+    issues_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp/deployments',
+    created_at: '2024-02-03T07:15:19Z',
+    updated_at: '2024-03-29T16:20:36Z',
+    pushed_at: '2024-03-01T18:54:17Z',
+    git_url:
+      'git://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    ssh_url:
+      'git@github.com:Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    clone_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp.git',
+    svn_url:
+      'https://github.com/Mohammedvaraliya/Google-GeminiPro-Chatbot-Vite-ReactApp',
+    homepage: 'https://mvlu-college-chatbot.netlify.app/',
+    size: 465,
+    stargazers_count: 2,
+    watchers_count: 2,
+    language: 'TypeScript',
+    has_issues: true,
+    has_projects: true,
+    has_downloads: true,
+    has_wiki: true,
+    has_pages: false,
+    has_discussions: false,
+    forks_count: 0,
+    mirror_url: null,
+    archived: false,
+    disabled: false,
+    open_issues_count: 0,
+    license: null,
+    allow_forking: true,
+    is_template: false,
+    web_commit_signoff_required: false,
+    topics: ['json', 'react', 'typescript', 'vite'],
+    visibility: 'public',
+    forks: 0,
+    open_issues: 0,
+    watchers: 2,
+    default_branch: 'main',
+  },
 ];

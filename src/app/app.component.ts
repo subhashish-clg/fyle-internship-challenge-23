@@ -35,6 +35,9 @@ export class AppComponent implements OnInit {
 
   // Handles the form submit of the search bar component. When the user click submits fetch the user and repos data from the API.
   onSearch(form: FormGroup): void {
+    this.currentPage = 1;
+    this.perPage = 10;
+
     this.resetError();
 
     // Empty the states from previous search
@@ -50,12 +53,10 @@ export class AppComponent implements OnInit {
       .getUser(form.value.username)
       .pipe(
         switchMap((user) => {
-          this.loading.user = false;
           return this.apiService
             .getRepos(user.login, this.perPage, this.currentPage)
             .pipe(
               map((repos) => {
-                this.loading.repos = false;
                 return {
                   user,
                   repos,

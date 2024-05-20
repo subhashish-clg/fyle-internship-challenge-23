@@ -99,7 +99,7 @@ describe('ApiService', () => {
       );
 
       service.getRepos('mohammedvaraliya', 10, 1).subscribe((repos) => {
-        expect(repos.length).toBe(10);
+        expect(repos.length).toBe(25);
       });
 
       // Simulate the passage of time until all pending asynchronous activities complete

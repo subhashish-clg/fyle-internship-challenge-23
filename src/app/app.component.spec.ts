@@ -68,16 +68,31 @@ describe('AppComponent', () => {
     expect(usercard).toBeTruthy();
   });
 
-  it('should display the repo cards correctly', () => {
+  it('should display the user specified number of repositories correctly', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
 
     app.user = mockUser;
     app.repos = mockRepos;
+    app.perPage = mockRepos.length;
+
+    fixture.detectChanges();
+
+    const repoCards = fixture.nativeElement.querySelectorAll('app-repo-item');
+    expect(repoCards.length).toBe(mockRepos.length);
+  });
+
+  it('should display the repo cards correctly', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+
+    app.user = mockUser;
+    app.repos = mockRepos.slice(0, 10);
 
     fixture.detectChanges();
 
     const repoItems = fixture.nativeElement.querySelectorAll('app-repo-item');
+
     expect(repoItems.length).toBe(10);
   });
 });

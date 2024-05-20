@@ -1,14 +1,15 @@
 <form
+  tabindex="-1"
   [formGroup]="searchForm"
   (ngSubmit)="onSubmit.emit(searchForm)"
-  class="z-50 bg-white w-11/12 max-w-[720px] fixed left-1/2 -translate-x-1/2 rounded-full top-8 focus-within:shadow-2xl transition-shadow ease-in-out duration-500 flex overflow-hidden px-4 py-2 shadow"
+  class="z-50 bg-white w-11/12 max-w-[720px] fixed left-1/2 -translate-x-1/2 rounded-full top-8 focus-within:shadow-2xl transition-shadow ease-in-out duration-500 flex overflow-hidden px-4 py-2 shadow justify-between"
 >
   <input
     formControlName="username"
     type="text"
     placeholder="Enter a username"
     required
-    class="flex-1 border-none focus:shadow-none focus:outline-none focus-within:shadow-none py-1 px-2"
+    class="flex-1 max-w-[70%] border-none focus:shadow-none focus:outline-none focus-within:shadow-none py-1 px-2"
   />
   <button aria-label="Search user" class="min-w-[24px] px-4">
     <svg

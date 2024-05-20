@@ -26,7 +26,12 @@
 
   <ng-container *ngIf="!isLoading && user">
     <div class="rounded-full overflow-hidden w-fit relative">
-      <img [src]="user.avatar_url" height="72" width="72" />
+      <img
+        [src]="user.avatar_url"
+        height="72"
+        width="72"
+        class="block bg-gray-300"
+      />
     </div>
     <div class="mt-4">
       <div>
